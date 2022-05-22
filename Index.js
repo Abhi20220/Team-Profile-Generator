@@ -100,7 +100,7 @@ const addEmployee = () => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log ("Please enter an employee's name!");
+                    console.log ("An employee name is required!");
                     return false; 
                 }
             }
@@ -111,7 +111,7 @@ const addEmployee = () => {
             message: "Please enter the employee's ID.",
             validate: nameInput => {
                 if  (isNaN(nameInput)) {
-                    console.log ("Please enter the employee's ID!")
+                    console.log ("An employee ID is required!")
                     return false; 
                 } else {
                     return true;
@@ -127,7 +127,7 @@ const addEmployee = () => {
                 if (valid) {
                     return true;
                 } else {
-                    console.log ('Please enter an email!')
+                    console.log ('An email is required!')
                     return false; 
                 }
             }
@@ -141,7 +141,7 @@ const addEmployee = () => {
                 if (nameInput ) {
                     return true;
                 } else {
-                    console.log ("Please enter the employee's github username!")
+                    console.log ("A Github username is required!")
                 }
             }
         },
@@ -154,7 +154,7 @@ const addEmployee = () => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log ("Please enter the intern's school!")
+                    console.log ("A school is required!")
                 }
             }
         },
