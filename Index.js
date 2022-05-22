@@ -78,3 +78,9 @@ const addManager = () => {
         console.log(manager); 
     })
 };
+
+// Employee Prompts
+const addEmployee = () => {
+    console.log(`
+    --Adding Employees to the Team!--
+    `);
