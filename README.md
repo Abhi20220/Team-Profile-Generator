@@ -6,7 +6,7 @@ A command line application which generates a team of employees from manager, int
 ## Installation
 
 use:
-git@github.com:Abhi20220/Team-Profile-Generator.git
+git clone git@github.com:Abhi20220/Team-Profile-Generator.git | within the terminal to clone the repository 
 
 intall required dependencies:
 npm install
