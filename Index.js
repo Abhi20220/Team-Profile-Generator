@@ -76,8 +76,13 @@ const addManager = () => {
 
         teamArray.push(manager); 
         console.log(manager); 
+        addEmployee();
     })
+    
 };
+
+addManager();
+
 
 // Employee Prompts
 const addEmployee = () => {
@@ -187,8 +192,13 @@ const addEmployee = () => {
         if (confirmAddEmployee) {
             return addEmployee(teamArray); 
         } else {
-            return teamArray;
+            generateHTML(teamArray)
+            // return teamArray;
         }
     })
 
 };
+
+function concatenateStaff() {
+    fs.writeFileSync(filePath, hire(staff), "utf-8");
+  }
